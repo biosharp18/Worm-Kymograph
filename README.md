@@ -1,5 +1,11 @@
 # Worm-Kymograph
-Code for worm tracking and kymograph creation
+Code for worm tracking and kymograph creation. The nematode _C. elegans_ is an excellent model organism in neuroscience and neurobiology. It has a suite of genetic and optogenetic tools with which we can probe molecular mechanics. In addition, it is the first organism to have its wiring diagram tracked throughout development, thanks to our lab in Toronto. (Witvliet et al., 2021)
+
+We are interested in how the worm generates and modulates rhythmic neural behaviour. In particular, we look at the process of feeding in the worm. Feeding involves many coupled and rhythmic motions such as chewing and swallowing, both of which are demonstrated in the worm. 
+![6v2cam](https://user-images.githubusercontent.com/30483987/192911114-0914aced-9a57-4814-ba23-c312167fbff5.gif)
+
+
+To study these neural mechanics in detail, one must quantify the feeding process, which is what this pipeline aims to do. 
 
 Program takes in an h5 file which has been formatted in a certain way by members of our lab. 
 
