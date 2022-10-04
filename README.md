@@ -15,7 +15,7 @@ The segmentation map is created with a CNN that we've trained on previous data. 
 
 <img width="425" alt="image" src="https://user-images.githubusercontent.com/30483987/192910031-055c2b35-1328-4c10-aabf-fd4bf8c64905.png">
 
-The pixel intensity is integrated along the line normal to the centreline, to generate a food intensity waveform, which represents the food distribution along the worm. 
+The pixel intensity is integrated along the line normal to the centreline, to generate a food intensity waveform, which represents the food distribution along the worm. Sub pixel intensity values are interpolated with billinear interpolation and we use a block diagonal matrix to concurrently do the interpolation and integration.
 
 <img width="362" alt="image" src="https://user-images.githubusercontent.com/30483987/192910441-5de38ad2-6d12-4ff5-9181-c498865f8d26.png">
 
