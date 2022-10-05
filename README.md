@@ -1,5 +1,7 @@
 # Worm-Kymograph
-Code for worm tracking and kymograph creation. The nematode _C. elegans_ is an excellent model organism in neuroscience and neurobiology. It has a suite of genetic and optogenetic tools with which we can probe molecular mechanics. In addition, it is the first organism to have its wiring diagram tracked throughout development, thanks to our lab in Toronto. (Witvliet et al., 2021)
+Code for worm tracking and kymograph creation. 
+Coordinated neural patters are essential for life. While you read this, your breathing and blinking patterns are controlled by groups or neurons that generate coordinated output without coordinated input. (Unless you think about breathing every day!)
+How exactly these neural circuits do that is not entirely known. The nematode _C. elegans_ is an excellent model organism in neuroscience and neurobiology. It has a suite of genetic and optogenetic tools with which we can probe these neural mechanics. In addition, it is the first organism to have its wiring diagram tracked throughout development, thanks to our lab in Toronto. (Witvliet et al., 2021)
 
 We are interested in how the worm generates and modulates rhythmic neural behaviour. In particular, we look at the process of feeding in the worm. Feeding involves many coupled and rhythmic motions such as chewing and swallowing, both of which are demonstrated in the worm. 
 
